@@ -1,5 +1,5 @@
 {
-    "name": "siphon/siphon",
+    "name": "mcrumm/siphon",
     "type": "package",
     "description": "A MySQL to Redis data-push task for FuelPHP",
     "keywords": ["mysql","sql","redis","fuelphp","fuel"],
