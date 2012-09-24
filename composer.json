@@ -1,0 +1,19 @@
+{
+    "name": "siphon/siphon",
+    "type": "package",
+    "description": "A MySQL to Redis data-push task for FuelPHP",
+    "keywords": ["mysql","sql","redis","fuelphp","fuel"],
+    "homepage": "http://github.com/mcrumm/siphon",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Crumm",
+            "email": "mike@crumm.net",
+            "homepage": "http://crumm.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+    }
+}
