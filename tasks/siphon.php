@@ -29,7 +29,7 @@ class Siphon
 		$models = \Config::get('siphon.models', array());
 		
 		if(empty($models)) {
-			\Cli::write(\Cli::color("No models specified in Siphon config!"));
+			\Cli::write(\Cli::color("No models specified in Siphon config!", 'red'));
 		}
 		
 		foreach($models as $model => $data)
