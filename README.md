@@ -40,8 +40,10 @@ Modify the config settings to match your environment.  You’ll need to specify 
 **Config Options**
 
 key_prefix:  A prefix used when generating keys for redis.  (Default: ‘siphon’)
+
 key_separator:  The separator between key parts.  (Default: ‘:’)
-models:  Holds references to the models you want to push.  The format here is important.
+
+models:  The name(s) model(s) you want to push.
 
 **Format for ‘models’ config option:**
 
